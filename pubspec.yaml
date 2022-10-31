@@ -1,0 +1,117 @@
+name: teenmotivation
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.1 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  path_provider: ^2.0.11
+  flutter_secure_storage: ^6.0.0
+  flutter_onboard: ^2.0.0
+  firebase_core: ^2.1.1
+  firebase_messaging: ^14.0.3
+  flutter_easyloading: ^3.0.5
+  google_mobile_ads: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/introduction/Teen.png
+    - assets/introduction/steve-jobs.png
+    - assets/introduction/elon-musk.png
+    - assets/introduction/larry-page.png
+    - assets/backgrounds/1.jpg
+    - assets/backgrounds/2.jpg
+    - assets/backgrounds/3.jpg
+    - assets/backgrounds/4.jpg
+    - assets/backgrounds/5.jpg
+    - assets/backgrounds/6.jpg
+    - assets/backgrounds/7.jpg
+    - assets/backgrounds/8.jpg
+    - assets/backgrounds/9.jpg
+    - assets/backgrounds/10.jpg
+    - assets/backgrounds/11.jpg
+    - assets/backgrounds/12.jpg
+    - assets/backgrounds/13.jpg
+    - assets/backgrounds/14.jpg
+    - assets/backgrounds/15.jpg
+    - assets/backgrounds/16.jpg
+    - assets/backgrounds/17.jpg
+    - assets/backgrounds/18.jpg
+    - assets/backgrounds/19.jpg
+    - assets/backgrounds/20.jpg
+    - assets/backgrounds/21.jpg
+    - assets/backgrounds/22.jpg
+    - assets/backgrounds/23.jpg
+    - assets/backgrounds/24.jpg
+    - assets/backgrounds/25.jpg
+    - assets/backgrounds/26.jpg
+    - assets/backgrounds/27.jpg
+    - assets/backgrounds/28.jpg
+    - assets/backgrounds/29.jpg
+    - assets/backgrounds/30.jpg
+
+  fonts:
+    - family: Roboto Bold
+      fonts:
+        - asset: fonts/Roboto-Bold.ttf
+    - family: Roboto Light
+      fonts:
+        - asset: fonts/Roboto-Light.ttf
+    - family: Roboto Light Italic
+      fonts:
+        - asset: fonts/Roboto-LightItalic.ttf
+    - family: Roboto Medium
+      fonts:
+        - asset: fonts/Roboto-Medium.ttf
+    - family: Roboto Medium Italic
+      fonts:
+        - asset: fonts/Roboto-MediumItalic.ttf
+    - family: Roboto Regular
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+    - family: Roboto Thin
+      fonts:
+        - asset: fonts/Roboto-Thin.ttf
+    - family: Roboto Thic Italic
+      fonts:
+        - asset: fonts/Roboto-ThinItalic.ttf
