@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "700182155524",
+    "project_id": "teen-motivation-1d0be",
+    "storage_bucket": "teen-motivation-1d0be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700182155524:android:54c5f5879b0e4f785c0051",
+        "android_client_info": {
+          "package_name": "teen.teenmotivation.io"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700182155524-g2lf8ptps2t6e4e8bm1ugc3971qgiuh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFYPRA3niau-Rfaytn9krK7GDV3bj4dBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700182155524-g2lf8ptps2t6e4e8bm1ugc3971qgiuh4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
